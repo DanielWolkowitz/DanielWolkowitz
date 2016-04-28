@@ -1,0 +1,340 @@
+$subcolor: #B6D094;
+
+@import 'fonts';
+
+
+@media screen 
+  and (min-device-width: 750px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+.slide{
+	position: relative;
+}
+
+body{
+	margin-top: 20px;
+	background-color: #211F20;
+
+}
+
+.wrapper{
+	display: inline-block;
+	width: 55%;
+	margin-top: 10%;
+	// position: fixed;
+	margin-left: 4%;
+	// text-align: left;
+}
+
+
+
+h2{
+	margin: 0 auto;
+}
+
+h4{
+	margin: 0 auto;
+}
+
+.daniel{
+	// display: inline-block;
+	// position: relative;
+	// padding: 8px;
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.aboutMe{
+	display: inline-block;
+	font-size: 2.6em;
+	margin-left: 10%;
+	color: #707070;
+	font-family: madrasextra_bold_italic;
+	text-align: right;
+}
+
+span{
+	color: white;
+	margin: 0; 
+}
+
+
+.cv{
+	// display: inline-block;
+	color: #FFC857;
+	letter-spacing: 1px;
+	font-size: 0.4em;
+	font-family: madrasextra_bold_italic ;
+	margin-left: 4%;
+
+
+}
+
+
+#social_links{
+	color: #F9D96D;
+}
+
+
+
+// SELCETED WORKS SECTION -------------------------------------------------------
+
+.work_listing{
+	margin-top: -190px;
+	margin-bottom: 0px;
+	padding: -20px;
+	position: fixed;
+	margin-left: 61%;
+}
+
+#selectedworks{
+	font-family: 'PT Sans', sans-serif;	
+	color: #707070;
+	font-size: 1.8em;
+	margin-bottom: -12px;
+	letter-spacing: 1px;
+}
+
+#work1{
+	color: #FCC69C;
+	font-family: madrasextra_bold_italic;
+	font-size: 1.2em;
+	padding: 0;
+	margin-top: 12px;
+	margin-bottom: 0px;
+}
+
+#work2{
+	color: #FCC69C;
+	font-family: madrasextra_bold_italic;
+	font-size: 1.2em;
+	margin-top: 12px;
+	margin-bottom: 0px;
+}
+
+#work3{
+	color: #FCC69C;
+	font-family: madrasextra_bold_italic;
+	font-size: 1.2em;
+	margin-top: 12px;
+	margin-bottom: 0px;
+}
+
+
+#date{
+	font-size: 0.4em;
+	color: #707070;
+	margin-top: -100px;
+	margin-left: 8px;
+	font-family: 'PT Sans', sans-serif;	
+
+}
+
+#linkcolor{
+	color: #9EBA89;
+}
+
+
+// end of selected works css --------------------------------------------------
+
+}
+
+
+@media only screen 
+and (min-device-width : 300px) 
+and (max-device-width : 736px) { 
+
+
+body{
+	margin-top: 20px;
+	background-color: #211F20;
+
+}
+
+h2{
+	margin: 0 auto;
+}
+
+
+h4{
+	margin: 0 auto;
+}
+
+
+.daniel{
+	// display: inline-block;
+	// position: relative;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.aboutMe{
+	font-size: 3.0em;
+	margin-left: 4%;
+	width: 90%;
+	color: #707070;
+	font-family: madrasextra_bold_italic;
+
+}
+
+span{
+	color: white;
+}
+
+
+
+.cv{
+	// display: inline-block;
+	color: #FFC857;
+	letter-spacing: 1px;
+	font-size: 50px;
+	margin-top: 40px;
+	font-family: madrasextra_bold_italic ;
+
+}
+
+
+#social_links{
+	color: white;
+}
+
+
+
+// SELCETED WORKS SECTION -------------------------------------------------------
+
+#selectedWorks{
+	color: #847996;
+	font-size: 1em;
+	// text-align: center;
+	text-transform:uppercase;
+	font-family: madrasextra_bold_italic;
+	margin-left: 4%;
+	margin-top: 3%;
+	margin-botom: 0;
+	right: 100px;
+
+}
+
+.listofwork{
+	margin-top: 0.5%;
+	width: 90%;
+	// border: 1px solid rgba(193, 193, 193, 0.1);
+
+}
+
+
+.work_listing{
+	margin-left: 4%;
+	margin-top: 20px;
+	width:90%;
+}
+
+#work1{
+	color: white;
+	font-family: madrasextra_bold_italic;
+	font-size: 1.5em;
+}
+
+#work2{
+	color: white;
+	font-family: madrasextra_bold_italic;
+	font-size: 1.5em;
+}
+
+#work3{
+	color: white;
+	font-family: madrasextra_bold_italic;
+	font-size: 1.5em;
+}
+
+#span{
+	font-family: pt sans;
+	color: #9EBA89;
+	font-size: 12pt;
+}
+
+#underline{
+	color: white;
+}
+
+.skills{
+	margin-left: 4%;
+	font-family: madrasextra_bold_italic;
+}
+
+#use{
+	color: #F9D96D;
+}
+
+#date{
+	font-size: 0.6em;
+	color: #F9D96D;
+	margin-top: -100px;
+}
+
+#freshbooked{
+	height: 16%;
+	width: 16%;
+	margin-bottom: -7px;
+}
+
+#selectedworks{
+	font-family: 'PT Sans', sans-serif;	
+	color: #707070;
+	font-size: 1.8em;
+	margin-bottom: -12px;
+	letter-spacing: 1px;
+}
+
+footer{
+	font-family: madrasextra_bold_italic;
+	color: white;
+	font-size: 0.4em;
+	margin-left: 4%;
+}
+
+// end of selected works css --------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
