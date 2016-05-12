@@ -40,7 +40,7 @@
   src: url("bigjohn-webfont.eot?#iefix") format("embedded-opentype"), url("bigjohn-webfont.woff2") format("woff2"), url("bigjohn-webfont.woff") format("woff"), url("bigjohn-webfont.ttf") format("truetype"), url("bigjohn-webfont.svg#big_johnregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-@media screen and (min-width: 750px) and (max-width: 10000px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+@media screen and (min-width: 750px) and (max-width: 4000px) {
   .slide {
     position: relative; }
 
