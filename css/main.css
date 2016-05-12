@@ -40,7 +40,7 @@
   src: url("bigjohn-webfont.eot?#iefix") format("embedded-opentype"), url("bigjohn-webfont.woff2") format("woff2"), url("bigjohn-webfont.woff") format("woff"), url("bigjohn-webfont.ttf") format("truetype"), url("bigjohn-webfont.svg#big_johnregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-@media screen and (min-device-width: 750px) and (max-device-width: 4000px) {
+@media screen and (min-width: 750px) {
   .slide {
     position: relative; }
 
@@ -131,7 +131,7 @@
 
   #linkcolor {
     color: #9EBA89; } }
-@media only screen and (min-device-width: 300px) and (max-device-width: 750px) {
+@media only screen and (max-width: 750px) {
   body {
     margin-top: 20px;
     background-color: #211F20; }
