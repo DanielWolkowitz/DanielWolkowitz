@@ -3,8 +3,7 @@
 @import 'fonts';
 
 
-@media screen 
-  and (min-width: 750px)
+@media screen and (min-device-width: 750px)
 {
 .slide{
 	position: relative;
@@ -144,8 +143,7 @@ span{
 }
 
 
-@media only screen 
-and (max-width : 750px) { 
+@media only screen and (max-device-width : 749px) { 
 
 
 body{
@@ -300,18 +298,6 @@ footer{
 }
 
 // end of selected works css --------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
