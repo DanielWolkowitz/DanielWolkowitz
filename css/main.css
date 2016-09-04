@@ -46,7 +46,7 @@
 
   body {
     margin-top: 20px;
-    background-color: #211F20; }
+    background-color: #F7F9F9; }
 
   .wrapper {
     display: inline-block;
@@ -60,20 +60,23 @@
   h4 {
     margin: 0 auto; }
 
+  .daniel {
+    color: black; }
+
   a {
     text-decoration: none;
-    color: white; }
+    color: black; }
 
   .aboutMe {
     display: inline-block;
     font-size: 2.6em;
     margin-left: 10%;
-    color: #707070;
+    color: #CCD7C5;
     font-family: madrasextra_bold_italic;
     text-align: right; }
 
   span {
-    color: white;
+    color: black;
     margin: 0; }
 
   .cv {
@@ -84,7 +87,7 @@
     margin-left: 4%; }
 
   #social_links {
-    color: #F9D96D; }
+    color: #A2A392; }
 
   .work_listing {
     margin-top: -190px;
@@ -101,7 +104,7 @@
     letter-spacing: 1px; }
 
   #work1 {
-    color: #FCC69C;
+    color: #99A1A6;
     font-family: madrasextra_bold_italic;
     font-size: 1.2em;
     padding: 0;
@@ -109,14 +112,14 @@
     margin-bottom: 0px; }
 
   #work2 {
-    color: #FCC69C;
+    color: #99A1A6;
     font-family: madrasextra_bold_italic;
     font-size: 1.2em;
     margin-top: 12px;
     margin-bottom: 0px; }
 
   #work3 {
-    color: #FCC69C;
+    color: #99A1A6;
     font-family: madrasextra_bold_italic;
     font-size: 1.2em;
     margin-top: 12px;
@@ -124,13 +127,13 @@
 
   #date {
     font-size: 0.4em;
-    color: #707070;
+    color: #99A1A6;
     margin-top: -100px;
     margin-left: 8px;
     font-family: 'PT Sans', sans-serif; }
 
   #linkcolor {
-    color: #9EBA89; } }
+    color: #99A1A6; } }
 @media only screen and (max-device-width: 749px) {
   body {
     margin-top: 20px;

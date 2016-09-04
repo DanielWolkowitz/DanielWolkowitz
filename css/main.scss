@@ -12,7 +12,7 @@
 
 body{
 	margin-top: 20px;
-	background-color: #211F20;
+	background-color: #F7F9F9;
 
 }
 
@@ -39,25 +39,26 @@ h4{
 	// display: inline-block;
 	// position: relative;
 	// padding: 8px;
+	color: black;
 
 }
 
 a{
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 .aboutMe{
 	display: inline-block;
 	font-size: 2.6em;
 	margin-left: 10%;
-	color: #707070;
+	color: #CCD7C5;
 	font-family: madrasextra_bold_italic;
 	text-align: right;
 }
 
 span{
-	color: white;
+	color: black;
 	margin: 0; 
 }
 
@@ -75,7 +76,7 @@ span{
 
 
 #social_links{
-	color: #F9D96D;
+	color: #A2A392;
 }
 
 
@@ -99,7 +100,7 @@ span{
 }
 
 #work1{
-	color: #FCC69C;
+	color: #99A1A6;
 	font-family: madrasextra_bold_italic;
 	font-size: 1.2em;
 	padding: 0;
@@ -108,7 +109,7 @@ span{
 }
 
 #work2{
-	color: #FCC69C;
+	color: #99A1A6;
 	font-family: madrasextra_bold_italic;
 	font-size: 1.2em;
 	margin-top: 12px;
@@ -116,7 +117,7 @@ span{
 }
 
 #work3{
-	color: #FCC69C;
+	color: #99A1A6;
 	font-family: madrasextra_bold_italic;
 	font-size: 1.2em;
 	margin-top: 12px;
@@ -126,7 +127,7 @@ span{
 
 #date{
 	font-size: 0.4em;
-	color: #707070;
+	color: #99A1A6;
 	margin-top: -100px;
 	margin-left: 8px;
 	font-family: 'PT Sans', sans-serif;	
@@ -134,7 +135,7 @@ span{
 }
 
 #linkcolor{
-	color: #9EBA89;
+	color: #99A1A6;
 }
 
 
