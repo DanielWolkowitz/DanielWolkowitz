@@ -40,104 +40,103 @@
   src: url("bigjohn-webfont.eot?#iefix") format("embedded-opentype"), url("bigjohn-webfont.woff2") format("woff2"), url("bigjohn-webfont.woff") format("woff"), url("bigjohn-webfont.ttf") format("truetype"), url("bigjohn-webfont.svg#big_johnregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-@media screen and (min-device-width: 750px) {
-  body {
-    margin-top: 20px;
-    background-color: white; }
+body {
+  margin-top: 20px;
+  background-color: white; }
 
-  .wrapper {
-    display: inline-block;
-    width: 85%;
-    margin-top: 2%;
-    margin-left: 80px; }
+.wrapper {
+  display: inline-block;
+  width: 85%;
+  margin-top: 2%;
+  margin-left: 80px; }
 
-  .daniel {
-    color: black; }
+.daniel {
+  color: black; }
 
-  a {
-    text-decoration: none;
-    color: black; }
+a {
+  text-decoration: none;
+  color: black; }
 
-  .aboutMe {
-    display: inline-block;
-    font-size: 2.6em;
-    color: #BDC7B7;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 700; }
+.aboutMe {
+  display: inline-block;
+  font-size: 2.6em;
+  color: #BDC7B7;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700; }
 
-  span {
-    color: black;
-    margin: 0; }
+span {
+  color: black;
+  margin: 0; }
 
-  .cv {
-    color: #737367;
-    letter-spacing: 1px;
-    font-size: 0.6em;
-    margin-top: 10px;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 100; }
+.cv {
+  color: #737367;
+  letter-spacing: 1px;
+  font-size: 0.6em;
+  margin-top: 10px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100; }
 
-  #social_links {
-    color: #A2A392; }
+#social_links {
+  color: #A2A392; }
 
-  .work_listing {
-    display: block;
-    margin-top: 100px;
-    margin-left: 80px; }
+.work_listing {
+  display: block;
+  margin-top: 100px;
+  margin-left: 80px; }
 
-  #selectedworks {
-    font-family: 'Roboto Slab', serif;
-    font-weight: 300;
-    color: #BDC7B7;
-    border-bottom: 1px solid #BDC7B7;
-    width: 152px;
-    margin-bottom: 20px;
-    font-size: 1.8em;
-    letter-spacing: 1px; }
+#selectedworks {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #BDC7B7;
+  border-bottom: 1px solid #BDC7B7;
+  width: 152px;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  letter-spacing: 1px; }
 
-  #first_project {
-    display: inline-block;
-    padding-right: 20px;
-    vertical-align: top; }
+#first_project {
+  display: inline-block;
+  padding-right: 20px;
+  vertical-align: top; }
 
-  #second_project {
-    display: inline-block;
-    padding-right: 30px;
-    vertical-align: top; }
+#second_project {
+  display: inline-block;
+  padding-right: 30px;
+  vertical-align: top; }
 
-  #third_project {
-    vertical-align: top;
-    display: inline-block; }
+#third_project {
+  vertical-align: top;
+  display: inline-block; }
 
-  #date {
-    font-size: 0.8em;
-    color: #99A1A6;
-    margin-top: -100px;
-    margin-left: 8px;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 100; }
+#date {
+  font-size: 0.8em;
+  color: #99A1A6;
+  margin-top: -100px;
+  margin-left: 8px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100; }
 
-  #linkcolor {
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-    font-size: 1.8em;
-    padding: 0;
-    margin-top: 12px;
-    margin-bottom: 0px; }
+#linkcolor {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 1.8em;
+  padding: 0;
+  margin-top: 12px;
+  margin-bottom: 0px; }
 
-  .explanation {
-    font-family: 'Roboto Slab', serif;
-    font-weight: 300;
-    width: 340px;
-    font-size: 1.2em;
-    color: black; }
+.explanation {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  width: 340px;
+  font-size: 1.2em;
+  color: black; }
 
-  .project_info {
-    font-family: 'Roboto Slab', serif;
-    font-weight: 300;
-    font-size: 0.8em;
-    color: #BDC7B7;
-    padding: 0px;
-    margin: 0px; } }
+.project_info {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #BDC7B7;
+  padding: 0px;
+  margin: 0px; }
 
 /*# sourceMappingURL=main.css.map */
