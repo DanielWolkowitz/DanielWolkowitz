@@ -10,313 +10,111 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Sidebar Navigation -->
-    <nav class="sidebar">
-        <div class="sidebar-header">
-            <span class="logo">DW</span>
-        </div>
-        <ul class="nav-links">
-            <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
-            <li><a href="#operating-system" class="nav-link" data-section="operating-system">Operating System</a></li>
-            <li><a href="#now" class="nav-link" data-section="now">Now</a></li>
-            <li><a href="#thoughts" class="nav-link" data-section="thoughts">Thoughts</a></li>
-            <li><a href="#connect" class="nav-link" data-section="connect">Connect</a></li>
-        </ul>
-        <div class="sidebar-footer">
-            <a href="mailto:danielwolkowitz23@gmail.com" class="email-link">Say hello</a>
-        </div>
-    </nav>
-
-    <!-- Mobile Header -->
-    <header class="mobile-header">
-        <span class="logo">DW</span>
-        <button class="menu-toggle" aria-label="Toggle menu">
-            <span></span>
-            <span></span>
-        </button>
-    </header>
-
-    <!-- Main Content -->
-    <main class="content">
-        <!-- Home Section -->
-        <section id="home" class="section section--home active">
-            <div class="hero">
-                <p class="hero-intro">Hi, I'm</p>
-                <h1 class="hero-name">Daniel Wolkowitz</h1>
-                <p class="hero-tagline">Building at the intersection of AI, sales mastery, and human potential.</p>
-                <div class="hero-location">
-                    <span class="location-dot"></span>
-                    San Francisco
-                </div>
+    <main class="page">
+        <!-- Hero -->
+        <header class="hero">
+            <p class="hero-intro">Hi, I'm</p>
+            <h1 class="hero-name">Daniel Wolkowitz</h1>
+            <p class="hero-tagline">Building at the intersection of AI, sales mastery, and human potential.</p>
+            <div class="hero-location">
+                <span class="location-dot"></span>
+                San Francisco
             </div>
+        </header>
 
-            <div class="quick-nav">
-                <a href="#operating-system" class="quick-nav-item">
-                    <span class="quick-nav-icon">&#9670;</span>
-                    <div class="quick-nav-content">
-                        <h3>Operating System</h3>
-                        <p>How I think about life</p>
-                    </div>
-                </a>
-                <a href="#now" class="quick-nav-item">
-                    <span class="quick-nav-icon">&#9679;</span>
-                    <div class="quick-nav-content">
-                        <h3>Now</h3>
-                        <p>What I'm focused on</p>
-                    </div>
-                </a>
-                <a href="#thoughts" class="quick-nav-item">
-                    <span class="quick-nav-icon">&#9675;</span>
-                    <div class="quick-nav-content">
-                        <h3>Thoughts</h3>
-                        <p>Ideas worth sharing</p>
-                    </div>
-                </a>
-            </div>
+        <!-- Operating Principle -->
+        <section class="principle">
+            <blockquote>
+                "Decision paralysis stems from unclear value hierarchy. Every decision flows from explicit values. If a choice doesn't clearly align with these principles, the answer is NO by default."
+            </blockquote>
         </section>
 
-        <!-- Operating System Section -->
-        <section id="operating-system" class="section section--os">
-            <div class="section-header">
-                <h2>Operating System</h2>
-                <p class="section-subtitle">First principles that drive every decision</p>
-            </div>
-
-            <div class="os-intro">
-                <blockquote>
-                    "Decision paralysis stems from unclear value hierarchy. Every decision flows from explicit values. If a choice doesn't clearly align with these principles, the answer is NO by default."
-                </blockquote>
-            </div>
-
-            <!-- Tier 1 -->
-            <div class="os-tier">
-                <div class="tier-header">
-                    <span class="tier-label">Tier 1</span>
-                    <h3>Foundation Domains</h3>
-                    <p>Non-negotiable, daily-focus areas that enable everything else</p>
-                </div>
-
-                <div class="os-cards">
-                    <div class="os-card">
-                        <div class="os-card-header">
-                            <span class="os-card-icon">&#9829;</span>
-                            <h4>Health</h4>
-                        </div>
-                        <p class="os-card-belief">Optimized Longevity</p>
-                        <ul class="os-card-list">
-                            <li>Regular blood panels with cutting-edge biomarkers</li>
-                            <li>Evidence-based protocols integrated into routine</li>
-                            <li>Zero-toxic environment: apartment, food, body products</li>
-                            <li>Question every health convention - test, measure, optimize</li>
-                        </ul>
-                        <div class="os-card-filter">
-                            <strong>Filter:</strong> "Does this give me the best chance at optimal healthspan with current evidence?"
-                        </div>
+        <!-- Foundation -->
+        <section class="domains">
+            <div class="tier">
+                <span class="tier-label">Foundation</span>
+                <div class="domain-grid">
+                    <div class="domain">
+                        <h3>Health</h3>
+                        <p class="domain-belief">Optimized Longevity</p>
+                        <p>Evidence-based protocols. Zero-toxic environment. Test, measure, optimize.</p>
                     </div>
-
-                    <div class="os-card">
-                        <div class="os-card-header">
-                            <span class="os-card-icon">&#9733;</span>
-                            <h4>Fitness</h4>
-                        </div>
-                        <p class="os-card-belief">Elite Functional Capacity</p>
-                        <ul class="os-card-list">
-                            <li>10-12% body fat</li>
-                            <li>Sub-6 minute mile</li>
-                            <li>Mile swim capability</li>
-                            <li>Handstand pushups with ease</li>
-                            <li>Full joint flexibility and stability</li>
-                        </ul>
-                        <div class="os-card-filter">
-                            <strong>Filter:</strong> "Does this build the body I want to live in for the next 50 years?"
-                        </div>
+                    <div class="domain">
+                        <h3>Fitness</h3>
+                        <p class="domain-belief">Elite Functional Capacity</p>
+                        <p>Sub-6 min mile. Mile swim. Handstand pushups. Full flexibility.</p>
                     </div>
-
-                    <div class="os-card">
-                        <div class="os-card-header">
-                            <span class="os-card-icon">&#9670;</span>
-                            <h4>Career</h4>
-                        </div>
-                        <p class="os-card-belief">Best-in-Class Mastery</p>
-                        <ul class="os-card-list">
-                            <li>Stay current on AI developments</li>
-                            <li>Master sales psychology and consultative selling</li>
-                            <li>Build reputation as best-in-class in my domain</li>
-                        </ul>
-                        <div class="os-card-filter">
-                            <strong>Filter:</strong> "Does this make me demonstrably better at creating value for customers?"
-                        </div>
+                    <div class="domain">
+                        <h3>Career</h3>
+                        <p class="domain-belief">Best-in-Class Mastery</p>
+                        <p>AI developments. Sales psychology. Creating value for customers.</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Tier 2 -->
-            <div class="os-tier">
-                <div class="tier-header">
-                    <span class="tier-label">Tier 2</span>
-                    <h3>Growth Domains</h3>
-                    <p>High-priority areas that compound over time</p>
-                </div>
-
-                <div class="os-cards">
-                    <div class="os-card os-card--compact">
-                        <div class="os-card-header">
-                            <span class="os-card-icon">&#36;</span>
-                            <h4>Finances</h4>
-                        </div>
-                        <p class="os-card-belief">Systematic Wealth Building</p>
-                        <p class="os-card-description">Money should grow without constant attention. Zero-sum budgeting with clear MoM growth metrics. Set-and-forget investment strategy.</p>
+            <div class="tier">
+                <span class="tier-label">Growth</span>
+                <div class="domain-grid">
+                    <div class="domain">
+                        <h3>Finances</h3>
+                        <p>Systematic wealth building. Set-and-forget investments.</p>
                     </div>
-
-                    <div class="os-card os-card--compact">
-                        <div class="os-card-header">
-                            <span class="os-card-icon">&#9825;</span>
-                            <h4>Relationships</h4>
-                        </div>
-                        <p class="os-card-belief">Intentional Partnership</p>
-                        <p class="os-card-description">Building toward a life partnership and family. Dating with intention to find someone to build with.</p>
+                    <div class="domain">
+                        <h3>Relationships</h3>
+                        <p>Dating with intention. Building toward partnership.</p>
                     </div>
-
-                    <div class="os-card os-card--compact">
-                        <div class="os-card-header">
-                            <span class="os-card-icon">&#9671;</span>
-                            <h4>Knowledge</h4>
-                        </div>
-                        <p class="os-card-belief">Deep Learning Over Broad Consumption</p>
-                        <p class="os-card-description">Depth beats breadth. Focus: sales psychology, AI capabilities, philosophies that stretch human potential.</p>
+                    <div class="domain">
+                        <h3>Knowledge</h3>
+                        <p>Depth over breadth. Apply, don't just collect.</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Tier 3 -->
-            <div class="os-tier">
-                <div class="tier-header">
-                    <span class="tier-label">Tier 3</span>
-                    <h3>Enrichment Domains</h3>
-                    <p>Joy and meaning, systematized</p>
-                </div>
-
-                <div class="os-enrichment">
-                    <div class="enrichment-item">
-                        <h5>Fashion</h5>
-                        <p>Rugged, layered, clean, natural materials. James Bond meets Steve McQueen casual.</p>
-                    </div>
-                    <div class="enrichment-item">
-                        <h5>Design</h5>
-                        <p>Natural materials, eclectic spaces, thoughtful composition.</p>
-                    </div>
-                    <div class="enrichment-item">
-                        <h5>Music</h5>
-                        <p>All genres. Currently: Olivia Dean, classic Kanye, Pink Floyd, Motown.</p>
-                    </div>
-                    <div class="enrichment-item">
-                        <h5>Film</h5>
-                        <p>Sci-fi, action, drama, plot-driven narratives, fun romcoms.</p>
-                    </div>
+            <div class="tier">
+                <span class="tier-label">Enrichment</span>
+                <div class="enrichment-row">
+                    <span>Fashion: Rugged, layered, natural</span>
+                    <span>Design: Eclectic, thoughtful</span>
+                    <span>Music: All genres</span>
+                    <span>Film: Sci-fi, drama, plot-driven</span>
                 </div>
             </div>
         </section>
 
-        <!-- Now Section -->
-        <section id="now" class="section section--now">
-            <div class="section-header">
-                <h2>Now</h2>
-                <p class="section-subtitle">Updated January 2025</p>
-            </div>
-
-            <div class="now-content">
-                <div class="now-block">
-                    <h3>Working On</h3>
+        <!-- Now -->
+        <section class="now">
+            <h2>Now</h2>
+            <div class="now-grid">
+                <div>
+                    <h4>Working On</h4>
                     <ul>
-                        <li>Mastering enterprise sales at the frontier of AI</li>
-                        <li>Building expertise in consultative selling</li>
-                        <li>Staying current with frontier model developments</li>
+                        <li>Enterprise sales at the frontier of AI</li>
+                        <li>Consultative selling mastery</li>
                     </ul>
                 </div>
-
-                <div class="now-block">
-                    <h3>Exploring</h3>
+                <div>
+                    <h4>Exploring</h4>
                     <ul>
-                        <li>The location question: what makes a place worth committing to</li>
-                        <li>Real estate and land investment fundamentals</li>
-                        <li>Health optimization protocols</li>
+                        <li>The location question</li>
+                        <li>Real estate fundamentals</li>
                     </ul>
                 </div>
-
-                <div class="now-block">
-                    <h3>Reading</h3>
+                <div>
+                    <h4>Reading</h4>
                     <ul>
-                        <li>Sales psychology frameworks</li>
-                        <li>AI capabilities and implications research</li>
-                        <li>Philosophies on human potential</li>
+                        <li>Sales psychology</li>
+                        <li>AI implications</li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <!-- Thoughts Section -->
-        <section id="thoughts" class="section section--thoughts">
-            <div class="section-header">
-                <h2>Thoughts</h2>
-                <p class="section-subtitle">Ideas worth capturing</p>
-            </div>
-
-            <div class="thoughts-grid">
-                <article class="thought-card">
-                    <time class="thought-date">January 2025</time>
-                    <h3 class="thought-title">On Decision Paralysis</h3>
-                    <p class="thought-excerpt">The antidote to decision paralysis isn't more information - it's clearer values. When you know your hierarchy, choices become obvious.</p>
-                    <span class="thought-tag">Philosophy</span>
-                </article>
-
-                <article class="thought-card">
-                    <time class="thought-date">January 2025</time>
-                    <h3 class="thought-title">The Location Question</h3>
-                    <p class="thought-excerpt">Can't commit to apartment investment, relationship building, or social roots without location clarity. Defining criteria for staying vs. going.</p>
-                    <span class="thought-tag">Life Design</span>
-                </article>
-
-                <article class="thought-card">
-                    <time class="thought-date">January 2025</time>
-                    <h3 class="thought-title">Depth Over Breadth</h3>
-                    <p class="thought-excerpt">The trap: collecting information feels like progress. The truth: depth in fewer domains compounds faster than breadth across many.</p>
-                    <span class="thought-tag">Learning</span>
-                </article>
-            </div>
-
-            <div class="thoughts-add">
-                <p>More thoughts coming soon...</p>
-            </div>
-        </section>
-
-        <!-- Connect Section -->
-        <section id="connect" class="section section--connect">
-            <div class="section-header">
-                <h2>Connect</h2>
-                <p class="section-subtitle">Let's talk</p>
-            </div>
-
-            <div class="connect-content">
-                <p class="connect-intro">I'm always interested in conversations about AI, sales excellence, health optimization, and building intentional lives.</p>
-
-                <div class="connect-links">
-                    <a href="mailto:danielwolkowitz23@gmail.com" class="connect-link">
-                        <span class="connect-link-label">Email</span>
-                        <span class="connect-link-value">danielwolkowitz23@gmail.com</span>
-                    </a>
-                    <a href="https://www.linkedin.com/in/danielwolkowitz" target="_blank" rel="noopener noreferrer" class="connect-link">
-                        <span class="connect-link-label">LinkedIn</span>
-                        <span class="connect-link-value">danielwolkowitz</span>
-                    </a>
-                    <a href="https://www.github.com/danielwolkowitz" target="_blank" rel="noopener noreferrer" class="connect-link">
-                        <span class="connect-link-label">GitHub</span>
-                        <span class="connect-link-value">danielwolkowitz</span>
-                    </a>
-                </div>
-            </div>
-        </section>
+        <!-- Connect -->
+        <footer class="connect">
+            <a href="mailto:danielwolkowitz23@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/danielwolkowitz" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.github.com/danielwolkowitz" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </footer>
     </main>
-
-    <script src="js/main.js"></script>
 </body>
 </html>
